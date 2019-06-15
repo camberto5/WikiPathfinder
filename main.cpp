@@ -192,7 +192,7 @@ int main(int argc, char* argv[])
 	map<string, string> urlPrevMap; //map of previous URL taken to arrive to each key
 
 	string startURL = promptUser(start);
-	//string endURL = promptUser(finish);
+	string endURL = promptUser(finish);
 
 	time_t time = chrono::system_clock::to_time_t(chrono::system_clock::now());
 	cout << "Starting path discovery at: " << ctime(&time);
