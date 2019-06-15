@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -lcurl -g   CMakeFiles/WikiPathfinder.dir/main.cpp.o CMakeFiles/WikiPathfinder.dir/HTTPDownloader.cpp.o CMakeFiles/WikiPathfinder.dir/Queue.cpp.o  -o WikiPathfinder -lcurl 
