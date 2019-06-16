@@ -4,9 +4,9 @@
 #include <map> //used to store previous nodes and distances
 #include <queue> //used to queue URLs
 #include <stack> // used to find the path
+#include <ctime> //used for time display
+#include <chrono> //used for time display
 #include "HTTPDownloader.h" //used to download web pages
-#include <ctime>
-#include <chrono>
 using namespace std;
 
 enum Prompt {start, finish}; //used to control user prompts;
